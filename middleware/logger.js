@@ -1,7 +1,6 @@
 const logger = (req, res, next) => {
 
     let methodColor = ''
-
     switch(req.method) {
         case 'GET':
             methodColor = '34'

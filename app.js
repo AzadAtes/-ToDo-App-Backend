@@ -6,8 +6,6 @@ const { logger } = require('./middleware/logger')
 const app = express()
 const port = 4444
 
-
-
 app.use(logger)
 app.use(express.static('./static'));
 app.use(express.json())
