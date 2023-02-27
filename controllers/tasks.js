@@ -18,7 +18,7 @@ router.route('/')
         } catch (error) {
             res.status(500).json({msg: error})
         }
-        console.log(req.body);
+        console.log(req.body)
     })
 
 router.route('/:id')
@@ -48,6 +48,7 @@ router.route('/:id')
         } catch (error) {
             res.status(500).json({msg: error})
         }
+        console.log(req.body)
     })
     .delete(async (req,res) => {
         try {
